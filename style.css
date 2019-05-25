@@ -40,11 +40,16 @@ li {
 
 a {
   text-decoration: none;
+  color: var(--main-black);
 }
 
 .container {
   width: 77%;
   margin: 0 auto;
+}
+
+figure {
+  margin: 0;
 }
 
 /* ---- typography ---- */
@@ -69,14 +74,21 @@ h2 {
 
 h3 {
   font-size: 1.3em;
+  margin: 10px 0;
 }
 
-.values-container h4 {
+h4.section-small-title {
   text-transform: uppercase;
   font-size: 0.8em;
   font-weight: 400;
-  color: var(--main-purple);
   margin: 0;
+  padding: 10% 5% 0;
+  color: var(--main-purple);
+}
+
+h5 {
+  text-transform: uppercase;
+  font-size: 0.8em;
 }
 
 p {
@@ -133,6 +145,11 @@ p {
   bottom: -7px;
 }
 
+#nav-toggle.active {
+  position: fixed;
+  right: 20px;
+}
+
 #nav-toggle.active span {
   background-color: transparent;
 }
@@ -163,11 +180,15 @@ p {
   flex-direction: column;
   opacity: 0;
   transition: all .4s ease;
+  background: url("images/bg-full-color-mobile.svg") no-repeat 0 0;
+  background-size: cover;
 }
 
 .menu.visible {
   top: 0;
   opacity: 1;
+  position: fixed;
+  overflow: hidden;
 }
 
 .menu li {
@@ -274,26 +295,25 @@ p {
 
 /*------- values -------*/
 
-.values-container h4 {
-  padding: 10% 5% 0;
-}
-
-.values-container h2 {
+h2.section-title {
   margin: 5px 0 80px;
   position: relative;
   padding: 0 5%;
 }
 
-.values-container h2::before {
+h2.section-title::before {
   content: '';
-  background: transparent url("images/triangle-purple.svg") no-repeat 0 0;
-  width: 50px;
+  width: 71px;
   position: absolute;
-  height: 65px;
+  height: 73px;
   background-size: contain;
   z-index: -1;
   top: -7px;
   left: -16px;
+}
+
+.values-container h2.section-title::before {
+  background: transparent url("images/triangle-purple.svg") no-repeat 0 0;
 }
 
 .values-container li {
@@ -361,4 +381,92 @@ p {
 .values-container li:nth-child(even) h3,
 .values-container li:nth-child(even) p {
   padding-left: 30%;
+}
+
+/*------- works overview -------*/
+
+.works-overview-container {
+  position: relative;
+}
+
+.works-overview-container h2.section-title::before {
+  background: transparent url("images/triangle-yellow.svg") no-repeat 0 0;
+}
+
+.works-overview-container h2.section-title {
+  display: inline;
+}
+
+.works-overview-container a.see-all-btn {
+  position: absolute;
+  right: 7%;
+  background: url(images/line-small.svg) no-repeat 0 22px;
+  background-size: contain;
+  height: 30px;
+}
+
+.works-overview-container .work {
+  width: 100%;
+  /* @todo desktop box-shadow: 0 2px 4px var(--main-shadow); */
+  display: block;
+  margin: 20px 0 40px;
+}
+
+.works-overview-container img {
+  width: 100%;
+}
+
+.works-overview-container figure {
+  position: relative;
+}
+
+.works-overview-container figcaption {
+  /* @todo in desktop 
+  opacity: 1;
+  background: url("images/bg-work-info.svg") no-repeat 0 0;
+  background-size: cover;
+  position: absolute;
+  bottom: 4px;
+  width: 100%;
+  padding: 20px;
+  transition: opacity 1s;
+  */
+}
+
+.works-overview-container h5:first-child {
+  color: var(--main-orange);
+}
+
+/* @todo desktop .works-overview-container figure:hover > figcaption {
+  opacity: 1;
+} */
+
+/*------- clients -------*/
+
+.clients-container h2 {
+  margin-bottom: 20px;
+}
+
+.clients-container h2.section-title::before {
+  background: transparent url("images/triangle-pink.svg") no-repeat 0 0;
+}
+
+.clients-container article {
+  width: 60%;
+  margin: 20px auto 40px;
+  background: url("images/line-big.svg") no-repeat 0 100%;
+  padding-bottom: 20px; 
+}
+
+.clients-container img {
+  margin-bottom: 10px;
+}
+
+/*----------- footer -----------*/
+
+footer {
+  background-color: var(--main-red);
+  color: var(--main-white);
+  text-align: center;
+  padding: 10px;
 }

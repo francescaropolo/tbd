@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="5px" viewBox="0 0 80 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group 3 Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="80" height="5"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="iPhone-XS" transform="translate(-262.000000, -2203.000000)">
+            <g id="Group-3-Copy-2" transform="translate(262.000000, 2203.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFB671" xlink:href="#path-1"></use>
+                <g id="Group-3" mask="url(#mask-2)">
+                    <g transform="translate(0.000000, -8.000000)">
+                        <polygon id="Path-29" fill="#DA71FF" transform="translate(14.171485, 11.579930) rotate(24.000000) translate(-14.171485, -11.579930) " points="8.18497899 4.87179499 26.6526009 11.6942299 1.69036945 18.2880654"></polygon>
+                        <polygon id="Path-30" fill="#7971FF" points="27.3294402 2.69491525 19.7442862 14.4373711 29.4533421 14.4373711 34.184763 11.0498438 30.3961019 4.59202511"></polygon>
+                        <polygon id="Path-31" fill="#FFCF71" points="38.4423565 13.9010257 34.184763 11.0498438 31.9683473 6.49741068 57.1825231 3.81804842 55.0586213 13.9010257"></polygon>
+                        <polygon id="Path-32" fill="#719EFF" points="67.6370739 15.2830706 79.923244 6.49741068 65.6074545 6.49741068"></polygon>
+                        <polygon id="Path-33" fill="#FF7171" points="55.0586213 13.9010257 65.6074545 6.49741068 67.6370739 15.2830706"></polygon>
+                        <polygon id="Path-34" fill="#FF9D71" points="37.7818834 5.85522266 45.7763625 13.9010257 56.2807213 8.06872081 37.7818834 3.81804842"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
