@@ -28,7 +28,8 @@ body {
   padding: 0;
 }
 
-ul {
+ul,
+ol {
   margin: 0;
   padding: 0;
 }
@@ -39,6 +40,11 @@ li {
 
 a {
   text-decoration: none;
+}
+
+.container {
+  width: 77%;
+  margin: 0 auto;
 }
 
 /* ---- typography ---- */
@@ -58,9 +64,20 @@ h1 {
 
 h2 {
   font-family: 'Righteous', cursive;
+  font-size: 1.7em;
 }
 
-h3 {}
+h3 {
+  font-size: 1.3em;
+}
+
+.values-container h4 {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 400;
+  color: var(--main-purple);
+  margin: 0;
+}
 
 p {
   margin: 0;
@@ -160,8 +177,7 @@ p {
 /*----------- header -----------*/
 
 #site-header section {
-  width: 77%;
-  margin: 0 auto 50px;
+  margin-bottom: 50px;
 }
 
 #site-header h1 {
@@ -221,7 +237,7 @@ p {
   background: url("images/bg-full-color-mobile.svg") no-repeat -20px 0;
   height: 30em;
   background-size: cover;
-  padding: 25% 12%;
+  padding-top: 25%;
 }
 
 .date {
@@ -245,9 +261,10 @@ p {
 .address span {
   display: block;
   color: var(--main-black);
-  font-size: 0.62em;
+  font-size: 0.6em;
   font-weight: 400;
   padding-top: 5px;
+  width: 60%;
 }
 
 .event-container p:last-child {
@@ -255,3 +272,93 @@ p {
   margin-top: 40px;
 }
 
+/*------- values -------*/
+
+.values-container h4 {
+  padding: 10% 5% 0;
+}
+
+.values-container h2 {
+  margin: 5px 0 80px;
+  position: relative;
+  padding: 0 5%;
+}
+
+.values-container h2::before {
+  content: '';
+  background: transparent url("images/triangle-purple.svg") no-repeat 0 0;
+  width: 50px;
+  position: absolute;
+  height: 65px;
+  background-size: contain;
+  z-index: -1;
+  top: -7px;
+  left: -16px;
+}
+
+.values-container li {
+  margin-bottom: 20%;
+}
+
+.values-container h3 {
+  position: relative;
+}
+
+.values-container li:first-child h3:after {
+  content: '1.';
+  background: url("images/shape-yellow.svg") no-repeat 0 0;
+}
+
+.values-container li:nth-child(2) h3:before {
+  content: '2.';
+  background: url("images/shape-red.svg") no-repeat 0 0;
+  padding: 28px 18px;
+}
+
+.values-container li:nth-child(3) h3:after {
+  content: '3.';
+  background: url("images/shape-pink.svg") no-repeat 0 0;
+  padding: 28px 18px;
+}
+
+.values-container li:nth-child(4) h3:before {
+  content: '4.';
+  background: url("images/shape-blue.svg") no-repeat 0 0;
+  padding: 28px 18px;
+}
+
+.values-container li:nth-child(5) h3:after {
+  content: '5.';
+  background: url("images/shape-orange.svg") no-repeat 0 0;
+  padding: 28px 18px;
+}
+
+.values-container li:nth-child(odd) h3::after {
+  right: -20px;
+}
+
+.values-container li:nth-child(even) h3::before {
+  left: -20px;
+}
+
+.values-container li h3::after,
+.values-container li h3::before {
+  font-size: 3.5rem;
+  font-family: 'Righteous', cursive;
+  width: 100px;
+  position: absolute;
+  height: 108px;
+  background-size: 80px;
+  top: -30px;
+  padding: 28px;
+}
+
+.values-container li:nth-child(odd) h3,
+.values-container li:nth-child(odd) p {
+  padding-right: 30%;
+}
+
+.values-container li:nth-child(even) h3,
+.values-container li:nth-child(even) p {
+  padding-left: 30%;
+}
