@@ -419,7 +419,7 @@ h2.section-title::before {
   display: inline;
 }
 
-.works-overview-container a.see-all-btn {
+a.see-all-btn {
   position: absolute;
   right: 7%;
   background: url(images/line-small.svg) no-repeat 0 22px;
@@ -568,7 +568,7 @@ footer {
   color: var(--main-white);
   padding: 10px 20px;
   box-shadow: 0px 2px 4px var(--main-shadow);
-  width: 60%;
+  width: 80%;
   margin: 10px 0 20px;
   text-align: center;
 }
@@ -606,3 +606,132 @@ footer {
   margin: 20px 0;
   display: inline-block;
 }
+
+/*----------- project - main -----------*/
+
+/*------- breadcrumbs -------*/
+
+.breadcrumbs {
+  margin-bottom: 40px;
+}
+
+.breadcrumbs p, 
+.breadcrumbs a {
+  text-transform: uppercase;
+  color: var(--main-blue);
+  font-size: 0.875em;
+}
+
+.breadcrumbs a {
+  font-weight: 700;
+}
+
+#site-header .project-title {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.work-details {
+  color: var(--main-grey);
+  font-size: 0.875em;
+  font-weight: 300;
+  display: flex; 
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 20px;
+  line-height: 1.57;
+}
+
+.work-details.first {
+  margin-bottom: 0; 
+}
+.work-details:last-child {
+  display: inherit; 
+}
+
+.work-details h5 {
+  color: var(--main-black);
+  font-weight: 700;
+  font-size: 0.89em;
+  margin: 0 5px 0 0;
+}
+
+.work-details li {
+  margin: 5px 0;
+}
+
+/*------- hero + process -------*/
+
+.process-container h2.section-title::before {
+  background: transparent url("images/triangle-orange-dark.svg") no-repeat 0 0;
+}
+
+.work-team-container h2.section-title::before {
+  background: transparent url("images/triangle-yellow.svg") no-repeat 0 0;
+}
+
+.more-container h2.section-title::before {
+  background: transparent url("images/triangle-red.svg") no-repeat 0 0;
+}
+
+.work-hero-container {
+  width: 100vw;
+  height: 490px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.work-hero-container img {
+  height: 100%;
+}
+
+.photos-process {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 15px;
+}
+
+.img-container {
+  width: 80%;
+  height: 155px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 4px var(--main-shadow);
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.img-container:nth-child(odd) {
+  justify-self: end;
+}
+
+/*------- team -------*/
+
+.work-team-card.team-member div {
+  height: 178px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.work-team-card.team-member img {
+  height: 100%;
+}
+
+.more-container h2.section-title {
+  display: inline;
+}
+
+.more-card-container a {
+  width: 80%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
