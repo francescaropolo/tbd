@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="78px" viewBox="0 0 47 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-30.8%" y="-17.1%" width="161.5%" height="134.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.14489923   0 0 0 0 0.14489923   0 0 0 0 0.14489923  0 0 0 0.22 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M28.7338867,70 C25.672348,70 22.7964002,69.4201718 20.105957,68.260498 C17.4155139,67.1008243 15.0575459,65.5082295 13.0319824,63.482666 C11.0064189,61.4571025 9.41382416,59.0991345 8.25415039,56.4086914 C7.09447662,53.7182483 6.51464844,50.8423005 6.51464844,47.7807617 L6.51464844,33.0297852 L0.345214844,33.0297852 L0.345214844,20.4125977 L6.51464844,20.4125977 L6.51464844,0.559082031 L19.1318359,0.559082031 L19.1318359,20.4125977 L38.3359375,20.4125977 L38.3359375,33.0297852 L19.1318359,33.0297852 L19.1318359,47.7807617 C19.1318359,49.110521 19.3792293,50.3552188 19.8740234,51.5148926 C20.3688176,52.6745663 21.0491493,53.6873329 21.9150391,54.5532227 C22.7809288,55.4191124 23.8014264,56.1071752 24.9765625,56.6174316 C26.1516986,57.1276881 27.4041275,57.3828125 28.7338867,57.3828125 L38.3359375,57.3828125 L38.3359375,70 L28.7338867,70 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-11" transform="translate(-120.000000, -331.000000)">
+            <g id="Group" filter="url(#filter-1)" transform="translate(124.000000, 333.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="#FFB671" fill-rule="nonzero" xlink:href="#path-2"></use>
+                <g mask="url(#mask-3)">
+                    <g transform="translate(-28.000000, -10.000000)">
+                        <polygon id="Path" fill="#FF7171" points="43.3150685 7.02970297 23.1321696 71 6.98630137 30.135062"></polygon>
+                        <polygon id="Path-Copy" fill="#FF8787" transform="translate(98.074964, 96.991909) rotate(-48.000000) translate(-98.074964, -96.991909) " points="116.337136 65.0846454 95.8885961 128.899172 79.812793 88.2234481"></polygon>
+                        <polygon id="Path-2" fill="#FFCF71" points="51 91.3861386 31.4383562 44.3247368 0 66.7739332"></polygon>
+                        <polygon id="Path-3" fill="#7971FF" points="71.9469702 77.2906869 50.3236235 66.6645846 38 60.608534 65.1172757 17"></polygon>
+                        <polygon id="Path-4" fill="#DA71FF" points="39.9491118 17.6094895 50.4801696 40.5325857 64.7579955 19.6831683"></polygon>
+                        <polygon id="Path-5" fill="#719EFF" points="37.4435203 58.9894805 79.9174402 67.4825672 82.4383562 91.3861386 45.4109589 78.4441343 37.8897688 60.6395188"></polygon>
+                        <polygon id="Path-6" fill="#FF9D71" points="31.4383562 44.3247368 44.5587769 50.1666142 50.147818 41.1782795 36.9499548 26.7128713"></polygon>
+                        <polygon id="Path-7" fill="#FFCF71" points="48.9041096 4.66518258 50.4623823 19.6831683 69.1643836 8.11789947 62.1587881 0"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

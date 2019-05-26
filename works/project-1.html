@@ -5,22 +5,26 @@
   <title>tbd.studio | project 1</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400,700|Righteous&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <nav>
+  <nav id="site-nav">
     <a href="../index.html" class="logo-container">
-      <img src="../images/logo.png" alt="tbd logo">
+      <img src="../images/logo.svg" alt="tbd logo">
     </a>
-    <ul>
+    <div class="burger-menu">
+      <span>Menu</span>
+      <a href=# id="nav-toggle"><span></span></a>
+    </div>
+    <ul class="menu">
       <li><a href="../index.html">Home</a></li>
       <li><a href="../works.html">Works</a></li>
       <li><a href="../team.html">Team</a></li>
     </ul>
   </nav>
-  <header>
+  <header id="site-header" class="container">
     <nav class="breadcrumbs">
       <p><a href="../works.html">Works</a> / Project 1</p>
     </nav>
@@ -51,13 +55,13 @@
 
     <a href="#" class="btn-cta">Read the case study</a>
   </header>
-  <main>
+  <main id="site-main">
     <section class="work-hero-container">
       <img src="" alt="">
     </section>
     <section class="process-container">
-      <h4>The process</h4>
-      <h2>How we worked</h2>
+      <h4 class="section-small-title">The process</h4>
+      <h2 class="section-title">How we worked</h2>
       <div class="img-container">
         <img src="" alt="">
       </div>
@@ -72,8 +76,8 @@
       </div>
     </section>
     <section class="work-team-container">
-      <h4>The team</h4>
-      <h2>Our brains</h2>
+      <h4 class="section-small-title">The team</h4>
+      <h2 class="section-title">Our brains</h2>
 
       <section class="team-conitainer">
         <article class="work-team-card">
@@ -95,8 +99,8 @@
       </section>
     </section>
     <section class="more-container">
-      <h4>More works</h4>
-      <h2>I want more</h2>
+      <h4 class="section-small-title">More works</h4>
+      <h2 class="section-title">I want more</h2>
       <a href="../works.html">See All -></a>
 
       <section class="more-card-container">
@@ -127,6 +131,8 @@
   <footer>
     <p>Created @ Ironhack with luv </p>
   </footer>
+
+  <script src="../main.js"></script>
 </body>
 
 </html>
