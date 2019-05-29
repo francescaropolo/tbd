@@ -28,7 +28,7 @@
     <section>
       <h1>to <span>be</span> <div><span class="letter d-logo">d</span><span class="typed"></span><span class="dot-logo">.</span></div></h1>
     </section>
-    <section>
+    <section class="who-we-are">
       <h2>Heading 2</h2>
       <p>Qui nunc loqueris? Ecce qui cogitatis? Vos scitis quanta ego faciam annum Id est, ut ego dixi vobis non credunt. Scis quid si ne subito placuit ire in opus?</p>
     </section>
@@ -36,9 +36,11 @@
   <main id="site-main">
     <section class="event-container">
       <article class="container">
-        <span class="date">May 31</span>
-        <h2>Hackshow</h2>
-        <p class="address">Ironhack <span>Carrer Pamplona 96, Barcelona 08018</span></p>
+        <section class="event-info">
+          <span class="date">May 31</span>
+          <h2>Hackshow</h2>
+          <p class="address">Ironhack <span>Carrer Pamplona 96, Barcelona 08018</span></p>
+        </section>
         <p>Join us in celebrating the best UX design projects, free beers and pizza included.</p>
       </article>
     </section>
@@ -86,42 +88,52 @@
       <h4 class="section-small-title">Our works</h4>
       <h2 class="section-title">What we do</h2>
       <a href="works.html" class="see-all-btn">See All -></a>
-      <a href="#" class="work">
-        <figure>
-          <img src="images/ogun.svg" alt="project ogun cover contruction worker">
-          <figcaption class="container">
-            <h5>Stuart</h5>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure eaque labore rem veniam, necessitatibus deleniti fugiat suscipit delectus omnis ipsa culpa ea esse minima laudantium soluta officiis voluptas assumenda!</p>
-          </figcaption>
-        </figure>
-      </a>
-      <a href="#" class="work">
-        <figure>
-          <img src="images/stuart.svg" alt="project cover with stuart drivers">
-          <figcaption class="container">
-            <h5>Stuart</h5>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure eaque labore rem veniam, necessitatibus
-              deleniti fugiat suscipit delectus omnis ipsa culpa ea esse minima laudantium soluta officiis voluptas assumenda!
-            </p>
-          </figcaption>
-        </figure>
-      </a>
+      <section class="works-overview">
+        <a href="#" class="work">
+          <figure>
+            <img src="images/ogun.svg" alt="project ogun cover contruction worker">
+            <figcaption class="container">
+              <h5>Stuart</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure eaque labore rem veniam, necessitatibus deleniti fugiat suscipit delectus omnis ipsa culpa ea esse minima laudantium soluta officiis voluptas assumenda!</p>
+            </figcaption>
+          </figure>
+        </a>
+        <a href="#" class="work">
+          <figure>
+            <img src="images/stuart.svg" alt="project cover with stuart drivers">
+            <figcaption class="container">
+              <h5>Stuart</h5>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet iure eaque labore rem veniam, necessitatibus
+                deleniti fugiat suscipit delectus omnis ipsa culpa ea esse minima laudantium soluta officiis voluptas assumenda!
+              </p>
+            </figcaption>
+          </figure>
+        </a>
+      </section>
     </section>
     <section class="clients-container">
       <h4 class="section-small-title">Our clients</h4>
       <h2 class="section-title">Who...</h2>
-      <article>
-        <img src="images/logo-stuart.svg" alt="stuart logo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum expedita, repellat aut officiis alias rerum amet.</p>
-      </article>
-      <article>
-        <img src="images/logo-ogun.svg" alt="ogun logo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum expedita, repellat aut officiis alias rerum amet.</p>
-      </article>
-      <article>
-        <img src="images/logo-vg.svg" alt="vg logo">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum expedita, repellat aut officiis alias rerum amet.</p>
-      </article>
+      <section class="clients-overview">
+        <article>
+          <div>
+            <img src="images/logo-stuart.svg" alt="stuart logo">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum expedita, repellat aut officiis alias rerum amet.</p>
+        </article>
+        <article>
+          <div>
+            <img src="images/logo-ogun.svg" alt="ogun logo">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum expedita, repellat aut officiis alias rerum amet.</p>
+        </article>
+        <article>
+          <div>
+            <img src="images/logo-vg.svg" alt="vg logo">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum expedita, repellat aut officiis alias rerum amet.</p>
+        </article>
+      </section>
     </section>
   </main>
   <footer>
